@@ -1,0 +1,24 @@
+#include<stdio.h> //for ip op printf scanf
+#include<stlib.h> //for malloc,calloc,realloc & free
+
+int main()
+{
+    int arr[5]; //static memory allocation 
+    int size=0;
+    int*ptr=NULL;
+
+    printf("enter the  number of elements \n");
+    scanf("%d",&size);
+
+    ptr= (int *) malloc (size*sizeof(int));
+
+    //=(int *)malloc(6*4)
+    //(int *) malloc(24) //24 bytes will be available 
+
+    //use the memory 
+
+    free(ptr);
+
+    return 0;
+
+}
