@@ -16,7 +16,7 @@ class collections1
         lobj.addFirst(5);
         System.out.println(lobj);
 
-        Iterator lobj=lobj.iteratr();
+        Iterator lobj=lobj.iterator();
         while(lobj.hasNext())
         {
             System.out.println(lobj.next());
